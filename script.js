@@ -38,7 +38,7 @@ function table() {
   // var res = ;
 
   for (let i = 0; i <= 10; i++) {
-     res = res +"<p>"+i+" "+ " * "+" "+ num +" = "+num * i +" "+"</p>";
+     res = res +"<p>"+num +" "+ " * "+" "+ i +" = "+num * i +" "+"</p>";
 
   }
   document.getElementById("res").innerHTML = res;
