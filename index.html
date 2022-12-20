@@ -168,17 +168,16 @@
             <h3>Code source</h3>
             <pre>
                 <code>
-        function table() {
+            function table() {
             var num = parseFloat(document.getElementById("num").value);
-            
+            var res = "";
             // var res = ;
             
             for (let i = 0; i <= 10; i++) {
-                var res = (i, " * ", num, " = ", i * num);
-                var p = document.createElement("p");
+                res = res +"<p>"+i+" "+ " * "+" "+ num +" = "+num * i +" "+"</p>";
             
-                document.getElementById("res").innerHTML = res;
             }
+            document.getElementById("res").innerHTML = res;
             }
                 </code>
             </pre>
