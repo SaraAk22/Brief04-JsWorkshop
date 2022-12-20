@@ -38,11 +38,10 @@ function table() {
   // var res = ;
 
   for (let i = 0; i <= 10; i++) {
-     res = res +"<p>"+i+" "+ " * "+" "+ num +" "+" = "+" "+i *+ " "+num+" "+"</p>";
-    // var p = document.createElement("p");
+     res = res +"<p>"+i+" "+ " * "+" "+ num +" = "+num * i +" "+"</p>";
 
-    document.getElementById("res").innerHTML = res;
   }
+  document.getElementById("res").innerHTML = res;
 }
 
 //EXE4: Devine le nombre
